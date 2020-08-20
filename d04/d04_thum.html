@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *font {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .small {
+            width: 200px;
+            height: 150px;
+            border: double red;
+        }
+
+        .big {
+            width: 500px;
+            height: 250px;
+            border: double red;
+        }
+
+        #galary {
+            position: relative
+        }
+
+        #galary ul {
+            list-style-type: none;
+            width: 550px;
+        }
+
+        #galary span {
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 500px;
+        }
+
+        #galary li {
+            display: inline;
+            padding: 10px;
+            float: left;
+        }
+
+        #galary li:hover span {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Đèn Trung Thu</h2>
+    <div id="galary">
+        <ul>
+            <li><a href="../images/banhtrungthuman2.jpg" target="_blank">bánh trung thu
+                    <span><img src="../images/banhtrungthu2.jpg" alt="" class="big"></span></a></li>
+
+            <li> <a href="../images/banhtrungthuman.jpg" target="_blank"> <img src="../images/banhtrungthuman.jpg"
+                        alt="" class="small">
+                    <span><img src="../images/banhtrungthuman.jpg" alt="" class="big"></span></a></li>
+
+            <li><a href="../images/banhtrungthuchay.jpg" target="_blank"> <img src="../images/banhtrungthuchay.jpg"
+                        alt="" class="small">
+                    <span><img src="../images/banhtrungthuchay.jpg" alt="" class="big"></span></a></li>
+
+            <li><a href="../images/banhtrungthuchay2.jpg" target="_blank"> <img src="../images/banhtrungthuchay2.jpg"
+                        alt="" class="small">
+                    <span><img src="../images/banhtrungthuchay2.jpg" alt="" class="big"></span></a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+h2{
+    color: blue;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: burlywood 2px 2px 2px;
+}
+/*phan dinh dang cua the image*/
+img{
+    padding: 15px;
+    margin: 25px;
+    border:red double 5px ; 
+}

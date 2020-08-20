@@ -1,0 +1,69 @@
+/*file css cho cac bai tap thu muc d03*/
+/*universal selector*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*style selector*/
+a{
+    font-weight: bold;
+    padding: 50px;
+    text-decoration: none;
+    color: green;
+    text-shadow: 5px 2px 4px grey, 10px -20px 4px rgb(128, 0, 0);
+}
+
+h2{
+    color: blueviolet;
+}
+/*class selector bat dau bang dau .*/
+.autumn{
+    font-style: italic;
+    color: brown;
+    border: double medium rebeccapurple;
+    width: 50%;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0rem;
+
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 100% 100%;  
+}
+/*pseuo class: ::first-letter,ap dung cho the p co class = title*/
+p.title::first-letter{
+    font-size: 200%;
+    color: green;
+}
+p{
+    text-indent: 3rem;    
+}
+/*pseuo class: ::first-line,ap dung cho the p co class = title*/
+p.title::first-line{
+    font-size: 200%;
+    font-weight: bold;
+    color: darkgoldenrod;
+    text-indent: 3rem;
+}
+/*id selector*/
+#menu{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 1.2rem;
+   color: blueviolet ;}
+
+/*pseuo class: ::hover*/
+a:hover{
+    background-color: crimson;
+}
+div.autumn>p>img{
+    border: rgb(218, 22, 22) double medium;
+    border-radius: 30%;
+    width: 50%;
+}
+div>span>img{
+    border: rgb(218, 22, 22) double medium;
+    border-radius: 30%;
+    width: 50%;
+
+}
